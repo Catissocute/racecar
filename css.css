@@ -1,0 +1,27 @@
+:root{
+    --car1:100% ;
+    --car2:100% ;
+}
+body{
+    margin: 0%;
+    border-width: 2px;
+    border-color: black;
+}
+.ok{
+    position: absolute;
+    top: 14%;
+}
+#dacar1{
+    position: absolute;
+    top: 50%;
+    left: var(--car1);
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#dacar2{
+    position: absolute;
+    top: 20%;
+    left: var(--car2);
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
